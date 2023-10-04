@@ -1,18 +1,56 @@
 <html>
-<head>
 
+<head>
+    <link rel="icon" href="img/cs.png"/> <!--This is just for our information, won't be tested on-->
     <title>
-        Preston Dunlap, Oct 4 Lecture Code
+        MIS3033 Preston Dunlap, Oct. 4
     </title>
+
+    <style>
+        .divstyle1 
+        {
+            width: 100px;
+            height: 50px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: red;
+            border-radius: 10%;
+            margin-top:10px;
+            margin-bottom: 10px;
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <div style="border-style:solid;border-color:cornflowerblue; border-width:5px; height:200px;width:300px;border-radius:20px">
-        This is a div
-    </div>
+    <span style="background-color:antiquewhite;width:100px;height:50px;">
+        <span style="color:red;font-size:20px">M</span>
+        <span style="color:green;">I</span>
+        <span style="color:blue;">S</span>
+        3033
+    </span>
+    <span style="background-color:burlywood;">MIS3033</span>
+    <span style="background-color:#444444;">MIS3033</span>
+
+    <div class="divstyle1" style="background-color:mediumturquoise">MIS3033</div>
+    <div class ="divstyle1"style="background-color:aqua;">MIS3033</div>
+    <div class ="divstyle1"style="background-color:#123456;">MIS3033</div>
+
+    <img src="img/MIS3033logo.png" style="width:200px;border-radius:50%;border-style:solid;"/>
 
     <div>
-        <img src="img/cs.png"style="width:200px;"/>
+        <button>
+            Submit
+        </button>
+        <br />
+        <label for="name">Name: </label>
+        <input id="name" type="text" />
+        <br />
+        <label for="grade">Grade: </label>
+        <input id="grade" type="text" />
+        <br />
+        <input type="text" />
     </div>
 </body>
 
