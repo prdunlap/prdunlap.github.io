@@ -1,10 +1,51 @@
 <html>
 <head>
+    <link rel="stylesheet"href="site.css"/>
+
     <title> MIS3033 October 9th Preston Dunlap</title>
+    <style>
+        #div2 {
+            background-color:yellow;
+        }
+        #div3 {
+            background-color: blue;
+        }
+        #div4 {
+            background-color:green;
+        }
+        #div5 {
+            background-color: indigo;
+        }
+        #div6 {
+            background-color: darkcyan;
+        }
+    </style>
 </head>
 
-
 <body>
+    <span class="titlestyle">Box Sizing</span>
+    <div style="color:black; padding-left: 20px;box-sizing: content-box;" class=" divstyle1 titlestyle">div1</div>
+
+    <div style="padding-left:20px; box-sizing: border-box;" class="divstyle1 titlestyle">div2</div>
+    
+    <br />
+    <span class="titlestyle"> CSS Selectors </span>
+
+    <div id="main" style="position:relative; background-color:navajowhite;height:400px;">
+        <div style="position:sticky;top:3px;" id="div1"> div1 </div>
+        <div id="div2"> div2 </div>
+        <div id="div3"> div3 </div>
+        <div style="position:absolute;right:0;top:0;"id="div4"> div4 </div>
+        <div style="position:relative;left:10px;top:10px;" id="div5"> div5 </div>
+        <div id="div6"> div6 </div>
+
+        <div id="menu" style="position:fixed;right:0;top:100px; width:70px;height:60px;background-color:blue;">
+            Option 1 <br />
+            Option 2 <br />
+            Option 3
+        </div>
+
+    </div>
     <div style="width:200px; height: 100px;background-color:deepskyblue;margin-left:50px;padding-top:20px;padding-left:30px;">
         div1
     </div>

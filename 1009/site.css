@@ -1,0 +1,33 @@
+.titlestyle {
+    font-size: 20px;
+    color: forestgreen;
+    font-weight: bold;
+}
+
+.divstyle1 {
+    width: 40px;
+    height: 50px;
+    border-style: solid;
+    background-color: lightseagreen;
+}
+
+* /* this applies to everything*/ {
+    /*  border-style: dashed;
+            border-width: 5px;
+            border-color: sienna;
+*/
+}
+
+div /*This will apply to all the divs unless they've been overridden in that specific div*/ {
+    /* border-style: dashed;
+            border-width: 5px;
+            border-color: sienna;*/
+}
+
+span /*This will apply to all spans in your code*/ {
+}
+
+#div1 {
+    background-color: salmon;
+    height: 30px;
+}
