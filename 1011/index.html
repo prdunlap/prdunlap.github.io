@@ -7,7 +7,6 @@
             background-color: aliceblue;
             width: 800px;
             height: 500px;
-
             display:flex;
             flex-direction: row;
             justify-content:flex-end;
@@ -16,7 +15,7 @@
         }
         #webdiv 
         {
-            background-color:darkorchid;
+            
             width:1000px;
             margin-left:auto;
             margin-right:auto;
@@ -42,22 +41,21 @@
         }
         #bodydiv 
         {
-            background-color:lightgreen;
+           
             display:flex;
             flex-direction:row;
         }
         #leftdiv 
         {
-            background-color:red;
+          
             width:480px;
             display:flex;
             flex-direction:column;
-            height:100px;
-            
+            height:100px; 
         }
         #rightdiv
         {
-            background-color: yellow;
+            
             width: 480px;
             display:flex;
             flex-direction:column;
@@ -67,18 +65,68 @@
             border-style:solid;
             border-color:darkgray;
         }
+        #updiv 
+        {
+            border-style:solid;
+            border-width:2px;
+            border-color:darkgray;
+            border-radius:10px;
+            width:480px;
+        }
+        #downdiv 
+        {
+            border-style: solid;
+            border-width: 2px;
+            border-color: darkgray;
+            border-radius: 10px;
+            width: 480px;
+        }
+        #title1 
+        {
+            font-size:20px;
+            font-weight:bold;
+            background-color:lightblue;
+            border-radius:5px;
+        }
+        #title2 
+        {
+            font-size:20px;
+            font-weight:bold;
+        }
     </style>
 </head>
 
 <body>
     <div id="webdiv">
-        I LOVE PROGRAMMING!
+        <div id="headerdiv" style="display:flex;flex-direction:row;justify-content:center;align-items:center;">
+            <div style="font-size:30pt;color:dodgerblue;text-transform:uppercase;font-weight:bold;">I LOVE PROGRAMMING!</div>
+            <div>
+                <img src="a.svg" style="height:100px;"/>
+            </div>
+        </div>
         <div id="bodydiv">
 
             <div id="leftdiv">
-                left div
-                <div>div1</div>
-                <div>div2</div>
+                <div id="updiv">
+                    <span id="title1">
+                        What I already learned:
+                    </span>
+                    <ul>
+                        <li>C#</li>
+                        <li>C# Entity Framework</li>
+                        <li>Database Sqlite</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+                <div id="downdiv">
+                    <span id="title2">What I am going to learn:</span>
+                    <ol>
+                        <li>JavaScript</li>
+                        <li>BootStrap</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Web REST API</li>
+                    </ol>
+                </div>
             </div>
             <div id="rightdiv">
                 <div style="color:dodgerblue;font-size:20px;font-weight:bold;">I love MIS 3033</div>
@@ -90,11 +138,6 @@
                 Designed and Developed by Preston Dunlap for MIS 3033 Exam 2
             </span>
         </div>
-    </div>
-    <div id="maindiv">
-        <div class="d1">div1</div>
-        <div class="d1">div2</div>
-        <div class="d1">div3</div> <br />
     </div>
 </body>
 </html>

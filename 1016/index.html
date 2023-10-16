@@ -19,6 +19,64 @@
         }
 
     </style>
+
+    <script>
+        {
+            "use strict";
+            let i = 1;
+            let j = 2;
+
+            var age1;
+            age1 = 10;
+            console.log(age1);
+        }
+    </script>
+
+    <script>
+        {
+            "use string";
+            console.log(age1);
+            
+            let i;
+            let name1 = "Greg";
+            name1 = 'Greg';
+            name1 = `Greg`;
+
+            name1 = `${name1} age is ${age1}`;
+            console.log(name1);
+
+            function f1(n1, n2)
+            {
+                let r;
+                r = n1 * n2;
+                return r;
+            }
+            console.log(f1(3, 5));
+
+            let f2 = (n1, n2) =>{ return n1 - n2; };
+            console.log(f2(10, 2));
+            let stu1 = { name: "Tom", age: 20, weight: 120.6, grade: 90 };
+            console.log(stu1.name);
+            let arr1 = [2, 3, 4, 5];
+            for (let i = 0; i < arr1.Length; i++)
+            {
+                console.log(arr1[i]);
+            }
+
+            function f3(item)
+            {
+                return item * item;
+            }
+
+            let arr2 = arr1.map(f3);
+
+            console.log(arr2);
+
+            let arr3 = arr1.map((i) => { return i * i * i; });
+            console.log(arr3);
+        }
+    </script>
+
 </head>
 <body>
 
@@ -29,7 +87,7 @@
             {
                 "use strict";
                 document.querySelector("#div1").style.backgroundColor = "red";
-                document.querySelector("#div2").style.backgroundColor = "blue";
+                // document.querySelector("#div2").style.backgroundColor = "blue";
             }
         </script>
 
