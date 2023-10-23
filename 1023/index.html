@@ -1,15 +1,166 @@
 <html>
 <head>
     <title>[] Preston Dunlap October 23, 2023 Exam 2 Practice</title>
+    <style>
+        #main
+        {
+            width:1200px;
+            background-color:rosybrown;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        #b1 
+        {
+            background-color:red;
+            display:flex;
+            flex-direction:row;
+        }
+        #b2
+        {
+            background-color:#ededed;
+        }
+        #h 
+        {
+            background-color:aqua;
+        }
+        #f 
+        {
+            background-color: #faf7f7;
+            color: dimgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .t
+        {
+            font-size:30px;
+            font-weight:bold;
+        }
+        #left
+        {
+            background-color:hotpink;
+            width:400px;
+            justify-content:center;
+            align-items:center;
+            display:flex;
+            flex-direction:column;
+
+        }
+        #right 
+        {
+            background-color:darkcyan;
+            width:800px;
+            display:flex;
+            flex-direction:column;
+        }
+        #down 
+        {
+            display:flex;
+            flex-direction:row;
+            border-style:dotted;
+            border-color:lightgray;
+        }
+        #up 
+        {
+            border-style: dotted;
+            border-color: lightgray;
+        }
+        #links 
+        {
+            display:flex;
+            flex-direction:row;
+            width:400px;
+            background-color:brown;
+            height:200px;
+            align-items:center;
+            justify-content:center;
+        }
+    </style>
 </head>
 
 <body>
-    <img src="head1.png"  style="width:100px;"/>
-    <img src="email.png"  style="width:100px;"/>
-    <img src="linkedin.png"  style="width:100px;"/>
-    <img src="twitter.png"  style="width:100px;"/>
-    <img src="instagram.png"  style="width:100px;"/>
+    <div id="main">
+        <div id="h">
+            <span style="color:dodgerblue; font-size:20pt;font-weight:bold;">Preston Dunlap's Website</span>
+        </div>
+        <div id="b1">
+            <div id="left">
+                <div >
+                    <img src="head1.png" style="width:200px;border-radius:50%;" />
+                </div>
+                <div style="font-size:30px;">
+                    Preston Dunlap
+                </div>
+                <div>
+                    Student in Management Information Systems
+                    
+                </div>
+                <div>
+                    The University of Oklahoma
+                </div>
+                <div id="links">
+                    <a href="mailto:prdunlap@ou.edu" target="_blank">
+                        <img src="email.png" style="width:30px;" />
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="linkedin.png" style="width:30px;" />
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="twitter.png" style="width:30px;" />
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="instagram.png" style="width:30px;" />
+                    </a>
+                </div>
+            </div>
+            <div id="right">
+                <div id="up">
+                    <span class="t">Biography</span>
+                    <br />
+                    I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market. <br /><br />
 
+                    My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management. <br /><br />
+
+                    For more information, please refer to my CV.
+                </div>
+                <div id="down">
+                    <div>
+                        <span class="t">Interests</span>
+                        <ol>
+                            <li>Analyst/Programmer</li>
+                            <li>Business Analyst</li>
+                            <li>Database Administration</li>
+                            <li>Web Developer</li>
+                            <li>Data Scientists</li>
+                        </ol>
+                    </div>
+                    <div>
+                        <span class="t">Education</span>
+                        <ul>
+                            <li>
+                                M.S. in Management Information Systems, 2024
+                                The University of Oklahoma
+                            </li>
+                            <li>
+                                B.E. in Management Information Systems, 2022
+                                The University of Oklahoma
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="b2">
+            <span class="t">Recent News</span>
+            <ul style="margin-top:0px;margin-bottom:0px;">
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# EF</li>
+            </ul>     
+        </div>
+        <div id="f">
+            Designed and Published by Preston Dunlap
+        </div>
+    </div>
 </body>
 
 </html>
