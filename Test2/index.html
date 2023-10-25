@@ -1,19 +1,141 @@
 <html>
 
 <head>
-    <title>[Exam Code] Preston Dunlap Exam 2 MIS3033</title>
+    <title>[TVVH] Preston Dunlap Exam 2 MIS3033</title>
+    <style>
+        #main 
+        {
+            width:800px;
+        }
+        .t 
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius:5px;
+        }
+        #examcon 
+        {
+            display: flex;
+            flex-direction: row;
+        }
+        #top 
+        {
+            display: flex;
+            flex-direction: row;
+            height: 80px;
+            align-items: center;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            padding-left:10px;
+            
+        }
+        #left 
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            display:flex;
+            flex-direction:column;
+        }
+        #f 
+        {
+            font-weight: bold;
+            font-size: 20px;
+            color: grey;
+            align-items: center;
+            justify-content:end;
+            display:flex;
+            flex-direction:row;
+        }
+        .exam 
+        {
+            width: 200px;
+            height: 70px;
+            display:flex;
+            flex-direction:row;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            align-items:center;
+            justify-content:center;
+            
+        }
+        
+        #achie 
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        .b 
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
-
 <body>
-    <img src="head1.png" style="height:100px;"/>
-    <img src="head2.png" style="height:100px;"/>
-    <img src="linkedin.png" style="height:100px;"/>
-    <img src="css.svg" style="height:100px;"/>
-    <img src="javascript.svg" style="height:100px;"/>
-    <img src="sqlite.svg" style="height:100px;"/>
-    <img src="logo.svg" style="height:100px;"/>
-
+    <div id="examcon">
+        <div class="exam">
+            MIS 3033 Exam 2
+            <br />
+            Preston Dunlap
+        </div>
+        <div class="exam">
+            [TVVH]
+        </div>
+    </div>
+    <div id="main">
+        <div id="top">
+            <div>
+                <img src="head1.png" style="height:70px;" />
+            </div>
+            <div style="padding-left:5px;">
+                Preston Dunlap <br />
+                MIS Student
+            </div>
+            <div style="padding-left:5px;">
+                <a href="https://www.linkedin.com" ><img src="linkedin.png" style="height:30px;" /></a>
+            </div>
+        </div>
+        <div style="display:flex;flex-direction:row;">
+            <div id="left">
+                <div id="about" style="width:510px;height:110px;">
+                    <span class="t">About me:</span> <br />
+                    I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.
+                </div>
+                <div id="ach" class="b">
+                    <span class="t">Achievements</span>
+                    <div id="achie">
+                        <div style="display:flex;flex-direction:row;">
+                            <div class="b"><img src="html.svg" style="height:100px;" /></div>
+                            <div class="b"><img src="css.svg" style="height:100px;" /></div>
+                            <div class="b"><img src="javascript.svg" style="height:100px;" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="right" class="b" style="width:280px;">
+                <span class="t">Recent News</span>
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>Learned <img src="sqlite.svg" style="height:40px;" /></li>
+                </ul>
+            </div>
+        </div>
+        <div id="f" class="b">
+            Developed by Preston Dunlap here for MIS 3033 Exam 2 <img src="logo.svg" style="height:50px;" />
+        </div>
+    </div>
 </body>
 
 </html>
